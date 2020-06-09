@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import knex from '../database/connection';
 
-const url = process.env.URL || 'http://localhost:3030';
+const url = process.env.URL;
 
 class PointsController {
     async index(req: Request, res: Response) {

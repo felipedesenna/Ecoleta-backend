@@ -51,7 +51,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var connection_1 = __importDefault(require("../database/connection"));
-var url = process.env.URL || 'http://localhost:3030';
+var url = process.env.URL;
 var PointsController = /** @class */ (function () {
     function PointsController() {
     }
